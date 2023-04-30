@@ -17,7 +17,7 @@ const CampaignVideo = () => {
     setLoading(true);
     const options = {
       method: "GET",
-      url: "http://192.168.17.3:5000/video/request2",
+      url: "https://ad-backend.onrender.com/video/request2",
       params: {
         userid: user.uid,
         campid: campid,
