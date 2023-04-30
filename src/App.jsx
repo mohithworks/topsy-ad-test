@@ -97,7 +97,7 @@ function App() {
       setrefError("Please provide referrer id");
     }else {
       setBtnLoading(true);
-      const ip = await getData();
+      const ip = null;
 
       await createSupabaseUser(user.uid, refId, ip).then(({ error, data }) => {
         if (error) {
