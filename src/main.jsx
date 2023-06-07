@@ -3,6 +3,7 @@ import App from './App.jsx'
 import './index.css'
 import { ChakraProvider, extendTheme } from '@chakra-ui/react'
 import Header from './components/Header.jsx'
+import Register from './components/Register.jsx'
 
 const config = {
   useSystemColorMode: false,
@@ -42,6 +43,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     <ChakraProvider theme={customTheme}> 
       <Header />
       <App />
+      <Register />
     </ChakraProvider>
   </>,
 )

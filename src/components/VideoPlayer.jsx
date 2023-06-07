@@ -19,7 +19,7 @@ const VideoPlayer = ({ source }) => {
 
   const { user, userDet } = useGlobalContext()
 
-  const campid = "4cc475b7-2b6c-44d0-889c-ea9e4dd424ba";
+  const campid = "019b2f70-d1f4-43ec-895f-b390a0ff26f7";
 
   const videoRef = useRef(null);
 

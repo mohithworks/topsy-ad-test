@@ -12,8 +12,10 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
+  background-image: url('https://static.toiimg.com/thumb/92596968.cms?width=680&height=512&imgsize=66774');
 }
-
+body {
+}
 a {
   font-weight: 500;
   color: #646cff;
